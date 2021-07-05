@@ -39,3 +39,34 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+.ex-item{
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding:5%;
+    
+}
+.ex-item h1{
+    font-size: 35px;
+    text-align: center;
+}
+.experience_area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+#dev-item{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#stack-item{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 115, 0), rgb(251, 255, 0));
+    border-image-slice: 1;
+}
+footer p{
+    text-align:center;
+   padding:10px;
+    background-image: linear-gradient(rgba(255, 115, 0, 0.918),orange );
+}
